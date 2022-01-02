@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topbox {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navigation h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navigation, .topboxcontent, .info, .quotecontent, .call {
+    margin: 10px 50px 25px 50px;
+    padding: 10px 25px 60px 25px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.topboxcontent {
+    display: flex;
+    gap: 50px;
+}
+
+.topboxcontent p{
+    margin-bottom: 10px;
+}
+
+.maintitle {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.placeholder {
+    background-color: darkgray;
+    flex-shrink: 0;
+    display: flex;
+    width: 600px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 10px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card p {
+    text-align: center;
+}
+
+.border {
+    border-radius: 25px;
+    border: 2px solid blue;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+    padding: 60px 150px 0px 150px;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.footer {
+    background-color: white;
+    color: white;
+    font-size: 18px;
+}
+
+.call {
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+    padding: 10px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 150px 25px 150px;
+}
+
+button {
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+    padding: 10px 50px;
+    background-color: #3882F6;
+}
+
+.call button {
+    border: 1px solid white;
+    color: white;
+}
